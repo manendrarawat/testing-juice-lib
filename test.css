@@ -1,10 +1,46 @@
-.ck-reset_all :not(.ck-reset_all-excluded *),
-.ck.ck-reset_all {
-    border-collapse: collapse;
-    color: var(--ck-color-text);
-    cursor: auto;
-    float: none;
-    font: normal normal normal var(--ck-font-size-base)/var(--ck-line-height-base) var(--ck-font-face);
-    text-align: left;
-    white-space: nowrap
+.ck.ck-editor__editable a span.image-inline:after,
+.ck.ck-editor__editable figure.image>a:after {
+    display: block;
+    position: absolute
+}
+
+.ck-editor__editable .ck-list-bogus-paragraph {
+    display: inline
+}
+
+.ck.ck-list-styles-list {
+    display: grid
+}
+
+.ck-content ol {
+    list-style-type: decimal
+}
+
+.ck-content ol ol {
+    list-style-type: lower-latin
+}
+
+.ck-content ol ol ol {
+    list-style-type: lower-roman
+}
+
+.ck-content ol ol ol ol {
+    list-style-type: upper-latin
+}
+
+.ck-content ol ol ol ol ol {
+    list-style-type: upper-roman
+}
+
+.ck-content ul {
+    list-style-type: disc
+}
+
+.ck-content ul ul {
+    list-style-type: circle
+}
+
+.ck-content ul ul ul,
+.ck-content ul ul ul ul {
+    list-style-type: square
 }
