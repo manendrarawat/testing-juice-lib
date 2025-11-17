@@ -1,17 +1,33 @@
 :root {
-  --primary-color: #3498db;
-  --secondary-color: #2ecc71;
-  --font-size: 16px;
-  --spacing: 1rem;
+    --ck-border-radius: 2px;
+    --ck-inner-shadow: 2px 2px 3px var(--ck-color-shadow-inner) inset;
+    --ck-drop-shadow: 0 1px 2px 1px var(--ck-color-shadow-drop);
+    --ck-drop-shadow-active: 0 3px 6px 1px var(--ck-color-shadow-drop-active);
+    --ck-spacing-unit: 0.6em;
+    --ck-spacing-large: calc(var(--ck-spacing-unit)*1.5);
+    --ck-spacing-standard: var(--ck-spacing-unit);
+    --ck-spacing-medium: calc(var(--ck-spacing-unit)*0.8);
+    --ck-spacing-small: calc(var(--ck-spacing-unit)*0.5);
+    --ck-spacing-tiny: calc(var(--ck-spacing-unit)*0.3);
+    --ck-spacing-extra-tiny: calc(var(--ck-spacing-unit)*0.16)
 }
 
-.button {
-  background-color: var(--primary-color);
-  font-size: var(--font-size);
-  padding: var(--spacing);
+.ck-content ol {
+    list-style-type: decimal
 }
 
-.card {
-  border-color: var(--secondary-color);
-  margin: var(--spacing);
+.ck-content ol ol {
+    list-style-type: lower-latin
+}
+
+.ck-content ol ol ol {
+    list-style-type: lower-roman
+}
+
+.ck-content ol ol ol ol {
+    list-style-type: upper-latin
+}
+
+.ck-content ol ol ol ol ol {
+    list-style-type: upper-roman
 }
