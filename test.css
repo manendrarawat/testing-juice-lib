@@ -1,1 +1,20 @@
 
+.ck-content ol {
+    list-style-type: decimal
+}
+
+.ck-content ol ol {
+    list-style-type: lower-latin
+}
+
+.ck-content ol ol ol {
+    list-style-type: lower-roman
+}
+
+.ck-content ol ol ol ol {
+    list-style-type: upper-latin
+}
+
+.ck-content ol ol ol ol ol {
+    list-style-type: upper-roman
+}
